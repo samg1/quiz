@@ -25,7 +25,7 @@ body {
 .texto .a{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.remain{
+#remain{
     
     border-style: solid red 1px;
     background-color:#060c21;
@@ -106,7 +106,7 @@ a{
 
 
 
-.remain .c h2{
+#remain .c h2{
     position: absolute;
     top: -30px;
     right: 10px;
@@ -137,7 +137,27 @@ a{
     top:-100px;
 }
  
-.remain p{
+#remain p{
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
+}
+
+
+#about
+{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.info
+{
+flex:1;
+background-color: white;
+padding: 20px;
+}
+#foto
+{
+    flex:1;
+    margin-left: 20px;
 }
