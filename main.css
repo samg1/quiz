@@ -60,7 +60,9 @@ a{
     text-align: center;
     text-decoration: none;
 }  
-
+.c a{
+    color: black;
+}
 #proy1 {
    position: relative;
    height: 400px;
@@ -255,4 +257,20 @@ color: #333;
   
 .sticky + .content {
     padding-top: 60px;
+}
+
+#contacto{
+    height: 60px;
+    background: pink;
+    width:100%;
+    border-style: #000, 4px;
+
+}
+
+#contacto li a{
+    color: black;
+}
+#contacto li {
+    background: pink;
+
 }
